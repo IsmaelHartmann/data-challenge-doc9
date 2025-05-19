@@ -20,8 +20,8 @@ Os dados utilizados neste teste correspondem a um período fictício de **junho 
 | `datahora_abertura_solicitacao` | `timestamp` | Data e hora em que a solicitação foi criada                                                        |
 | `datahora_audiencia`            | `timestamp` | Data e hora agendada para a realização da audiência                                                |
 | `prazo_para_inserir_dados`      | `timestamp` | Prazo máximo para que o parceiro forneça os dados necessários                                      |
-| `data_envio`                    | `timestamp` | Data em que os dados da solicitação foram efetivamente enviados ao parceiro                        |
-| `tipo`                          | `text`      | Tipo de solicitação (ex: audiência inicial, audiência de conciliação)                              |
+| `data_envio`                    | `timestamp` | Data em que a solciitação foi enviada (realizada e concluída)                                      |
+| `tipo`                          | `text`      | Tipo de solicitação (Audiência = sessão presencial, Teleaudiência = sessão Remota)                 |                        |
 | `tipo_demanda`                  | `text`      | Perfil do profissional necessário: advogado, preposto ou ambos (combo)                             |
 | `area_processo`                 | `text`      | Área jurídica do processo (ex: cível, trabalhista, tributária)                                     |
 | `tipo_audiencia`                | `text`      | Tipo da audiência (ex: inicial, UNA, instrução)                                                    |
